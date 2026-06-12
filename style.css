@@ -107,23 +107,35 @@ main header h1 {
     font-size: clamp(0.7rem, 1.5vw, 0.9rem);
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    
+    #page {
+        margin-bottom: -16px;
+    }
+    
     main header img {
-        width: 70px;
-        height: 42px;
-        margin: 8px;
+        width: 13.4vw;
+        height: 7.2vh;
+        margin: 3px;
     }
  
     main header h1 {
         font-size: 1rem;
     }
+
+    .icon {
+        width: 20vw;
+        height: 18vh;
+        margin: auto 0;
+    }
  
     .icon .tiktok,
     .icon .facebook,
     .icon .youtube {
-        min-width: 100px;
-        padding: 6px 8px;
-        border-radius: 10px;
+        width: 95px;
+        padding: 3px 5px;
+        border-radius: 8px;
+        margin-bottom: -5px;
     }
  
     .icon p,
@@ -133,11 +145,53 @@ main header h1 {
  
     .ep-list a {
         font-size: 0.7rem;
-        padding: 5px 6px;
+        padding: 8px;
     }
 }
 
-@media screen and (min-width: 490px) and (max-width: 768px) {
+@media screen and (min-width: 410px) and (max-width: 490px) {
+    
+    #page {
+        margin-bottom: -16px;
+    }
+    
+    main header img {
+        width: 13.4vw;
+        height: 6vh;
+        margin: 2px;
+    }
+ 
+    main header h1 {
+        font-size: 1rem;
+    }
+
+    .icon {
+        width: 19.7vw;
+        height: 13.5vh;
+        margin: auto 0;
+    }
+ 
+    .icon .tiktok,
+    .icon .facebook,
+    .icon .youtube {
+        width: 23vw;
+        padding: 3px 5px;
+        border-radius: 8px;
+        margin-bottom: -5px;
+    }
+ 
+    .icon p,
+    .icon a {
+        font-size: 0.7rem;
+    }
+ 
+    .ep-list a {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
     #page {
         flex-direction: column;
         align-items: flex-start;
