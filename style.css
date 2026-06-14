@@ -116,6 +116,48 @@ main header h1 {
     font-size: clamp(0.7rem, 1.5vw, 0.9rem);
 }
 
+@media screen and (min-width: 300px) and (max-width: 355px) {
+
+    #page {
+        margin-bottom: -35px;
+    }
+
+    main header img {
+        width: 13.4vw;
+        height: 7.2vh;
+        margin: 3px;
+    }
+ 
+    main header h1 {
+        font-size: 1rem;
+    }
+
+    .icon {
+        width: 20vw;
+        height: 18vh;
+        margin: auto 0;
+    }
+ 
+    .icon .tiktok,
+    .icon .facebook,
+    .icon .youtube {
+        width: 95px;
+        padding: 5px;
+        border-radius: 8px;
+        margin-bottom: -5px;
+    }
+ 
+    .icon p,
+    .icon a {
+        font-size: 0.7rem;
+    }
+ 
+    .ep-list a {
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+}
+
 @media screen and (min-width: 360px) and (max-width: 400px) {
     
     #page {
@@ -142,7 +184,7 @@ main header h1 {
     .icon .facebook,
     .icon .youtube {
         width: 95px;
-        padding: 3px 5px;
+        padding: 5px;
         border-radius: 8px;
         margin-bottom: -5px;
     }
